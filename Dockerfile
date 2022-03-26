@@ -1,6 +1,6 @@
 FROM dorowu/ubuntu-desktop-lxde-vnc
 
-RUN apt update
+#RUN apt update
 RUN apt install wget -y
 RUN apt install curl -y
 RUN apt install unzip -y
